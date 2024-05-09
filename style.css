@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  button {
+    color: blue;
+    margin: 5px;
+    cursor: pointer;
+    padding:10px 20px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+ .btns button:hover{
+    background-color:blue;
+    box-shadow: 0 3px 5px 5px white;
+    color: yellow;
+    transition: background-color .4s ease-in-out !important;
+  }
+  #counter{
+    font-size: 160px;
+    padding-bottom: 40px;
+    color: blue;
+  }
+  .counter{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+@media (max-width:600px) {
+    .counter{
+        width: 95%;
+    }
+}
+
